@@ -58,7 +58,7 @@ import org.n52.wps.server.feed.movingcode.MovingCodeObject;
  *
  */
 public class PythonScriptDelegator implements IAlgorithm{
-	private static final String COMMAND = "cmd /c";
+	private static final String COMMAND = "python";
 	
 	private static Logger LOGGER = LoggerFactory.getLogger(PythonScriptDelegator.class);
 	
